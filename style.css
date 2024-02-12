@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h1, p, footer{
+    font-weight: 300;
+}
+
+span {
+    font-weight: 700;
+}
+
+main {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1440px) {
+  img {
+    width: 60%;
+  }
+}

@@ -57,6 +57,13 @@ img {
   font-size: 12px;
   border: 1px solid hsl(0, 0%, 90%);
   color: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  &:hover {
+    background-color: hsl(223, 87%, 63%);
+    color: white; /* Slightly darker color on hover */
+  }
+  
 }
 
 footer {
@@ -76,6 +83,11 @@ form #submit {
   color: white;
   margin-left: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  &:hover {
+    background-color: hsl(223, 100%, 75%); /* Slightly darker color on hover */
+  }
 }
 
 form #email {

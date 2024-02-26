@@ -43,6 +43,20 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  gap: 20px;
+  color: hsl(223, 87%, 63%);
+}
+
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  border: 1px solid hsl(0, 0%, 90%);
+  color: inherit;
 }
 
 footer {
@@ -61,12 +75,17 @@ form #submit {
   font-size: 16px;
   color: white;
   margin-left: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 form #email {
   padding: 15px 105px;
   border-radius: 30px;
-  border: 1px solid hsl(0, 0%, 59%);
+  border: 1px solid hsl(0, 0%, 90%);
+}
+
+form #email::placeholder {
+  color: hsl(0, 0%, 80%);
 }
 
 @media only screen and (max-width: 600px) {

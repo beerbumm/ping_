@@ -65,7 +65,6 @@ img {
   transition: background-color 0.3s ease-in-out;
   &:hover {
     background-color: hsl(223, 87%, 63%);
-    color: white; /* Slightly darker color on hover */
     color: white;
   }
 }
@@ -88,10 +87,8 @@ form #submit {
   margin-left: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out; /* Smooth transition */
   transition: background-color 0.3s ease-in-out;
   &:hover {
-    background-color: hsl(223, 100%, 75%); /* Slightly darker color on hover */
     background-color: hsl(223, 100%, 75%);
   }
 }

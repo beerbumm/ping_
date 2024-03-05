@@ -23,15 +23,17 @@
       <h1>We are launching <span>soon!</span></h1>
       <p>Subscribe and get notified</p>
       <form onsubmit="return verifyEmail();">
+        <label for="emailInput"></label>
         <input
           type="email"
           placeholder="Your email address..."
           id="emailInput"
           title="Format: example@mail.com"
           pattern="[a-zA-Z0-9.#_%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
-          required
+          required=""
           class="error"
         />
+
         <input type="submit" value="Notify Me" id="submit" />
         <br />
         <em id="errorMessage"></em>
